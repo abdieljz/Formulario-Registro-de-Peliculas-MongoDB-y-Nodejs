@@ -16,7 +16,7 @@ const indexRutas = require('./routes/index');
 servidor.set('port',process.env.PORT || 2909);
 servidor.set('views', path.join(__dirname,'views'));
 servidor.set('view engine','ejs');
-//middlewares
+//middlewares.
 servidor.use(morgan('dev'));
 servidor.use(express.urlencoded({extended:false}));
 //rutas
