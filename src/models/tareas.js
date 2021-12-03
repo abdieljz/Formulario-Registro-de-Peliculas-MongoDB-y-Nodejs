@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-//como vana  lucir los daots
+//como vana  lucir los datos en la base de datos
 const Schema = mongoose.Schema;
 
 const TaskSchema  = new Schema({
